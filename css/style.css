@@ -1,0 +1,93 @@
+/*adding font*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: AlegreyaSans;
+    src: url(AlegreyaSans-Black.ttf);
+  }
+
+/* Background*/
+body {
+    background-image: url("donny-jiang-Uj_g1ZSzPoY-unsplash.jpg");
+    background-color: #cccccc;
+  }
+/*headlines*/
+  
+h1{
+    text-align: center;
+    font-family: Montserrat;
+}
+
+
+/*a and nav related*/
+
+
+a:link{
+    color: rgb(6, 55, 78);
+}
+a:visited{
+    color: rgb(175, 175, 175);
+}
+nav{
+    text-align: center;
+    display: block;
+}
+
+nav>a{
+    border: 2px ridge rgb(175, 175, 175);
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(6, 55, 78);
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    
+}
+nav>a:active{
+    background-color: rgb(5, 47, 66);
+    border: 2px groove rgb(175, 175, 175);
+}
+/*centering img */
+img{
+    display: block;
+    margin: auto;
+}
+/*changing the paragraphs*/
+h1~p{
+    font-family: AlegreyaSans   ;
+    font-weight: bold;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(204, 202, 214);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+/*centering video*/
+video{
+    display: block;
+   float: middle;
+
+}
+
+/*footer*/
+#footer-middle{
+    margin: auto;
+   
+}
+hr{
+    color: gray;
+    width: 100%;
+}
